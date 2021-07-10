@@ -17,6 +17,7 @@
         "libraryName": "antd",
         "style": "css"
       }
-    ]
+    ],
+    "effector/babel-plugin"
   ]
 }

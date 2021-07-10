@@ -62,6 +62,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["cssnano", "virtual:4f702e47783e02ba79019efa28edf6822346a5e058d9b807fb9a2e383591b322063729e524b60583b0f95cb823582b94203aab7157eee82e70a389e1bb8703d0#npm:5.0.6"],
             ["effector", "npm:21.8.12"],
             ["effector-logger", "virtual:4f702e47783e02ba79019efa28edf6822346a5e058d9b807fb9a2e383591b322063729e524b60583b0f95cb823582b94203aab7157eee82e70a389e1bb8703d0#npm:0.10.0"],
+            ["effector-react", "virtual:4f702e47783e02ba79019efa28edf6822346a5e058d9b807fb9a2e383591b322063729e524b60583b0f95cb823582b94203aab7157eee82e70a389e1bb8703d0#npm:21.3.3"],
             ["effector-root", "virtual:4f702e47783e02ba79019efa28edf6822346a5e058d9b807fb9a2e383591b322063729e524b60583b0f95cb823582b94203aab7157eee82e70a389e1bb8703d0#npm:1.3.0"],
             ["eslint", "npm:7.30.0"],
             ["eslint-config-airbnb-base", "virtual:4f702e47783e02ba79019efa28edf6822346a5e058d9b807fb9a2e383591b322063729e524b60583b0f95cb823582b94203aab7157eee82e70a389e1bb8703d0#npm:14.2.1"],
@@ -82,6 +83,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:2.3.2"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:4f702e47783e02ba79019efa28edf6822346a5e058d9b807fb9a2e383591b322063729e524b60583b0f95cb823582b94203aab7157eee82e70a389e1bb8703d0#npm:17.0.2"],
+            ["regenerator-runtime", "npm:0.13.8"],
             ["typescript", "patch:typescript@npm%3A4.3.5#builtin<compat/typescript>::version=4.3.5&hash=ddfc1b"],
             ["webpack", "virtual:4f702e47783e02ba79019efa28edf6822346a5e058d9b807fb9a2e383591b322063729e524b60583b0f95cb823582b94203aab7157eee82e70a389e1bb8703d0#npm:5.44.0"],
             ["webpack-cli", "virtual:4f702e47783e02ba79019efa28edf6822346a5e058d9b807fb9a2e383591b322063729e524b60583b0f95cb823582b94203aab7157eee82e70a389e1bb8703d0#npm:4.7.2"],
@@ -6989,6 +6991,32 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["effector-react", [
+        ["npm:21.3.3", {
+          "packageLocation": "./.yarn/cache/effector-react-npm-21.3.3-e6af96f142-3a656b0b52.zip/node_modules/effector-react/",
+          "packageDependencies": [
+            ["effector-react", "npm:21.3.3"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:4f702e47783e02ba79019efa28edf6822346a5e058d9b807fb9a2e383591b322063729e524b60583b0f95cb823582b94203aab7157eee82e70a389e1bb8703d0#npm:21.3.3", {
+          "packageLocation": "./.yarn/$$virtual/effector-react-virtual-c1f7bdef00/0/cache/effector-react-npm-21.3.3-e6af96f142-3a656b0b52.zip/node_modules/effector-react/",
+          "packageDependencies": [
+            ["effector-react", "virtual:4f702e47783e02ba79019efa28edf6822346a5e058d9b807fb9a2e383591b322063729e524b60583b0f95cb823582b94203aab7157eee82e70a389e1bb8703d0#npm:21.3.3"],
+            ["@types/effector", null],
+            ["@types/react", "npm:17.0.14"],
+            ["effector", "npm:21.8.12"],
+            ["react", "npm:17.0.2"]
+          ],
+          "packagePeers": [
+            "@types/effector",
+            "@types/react",
+            "effector",
+            "react"
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["effector-root", [
         ["npm:1.3.0", {
           "packageLocation": "./.yarn/cache/effector-root-npm-1.3.0-66dedf5554-3bd3739f8d.zip/node_modules/effector-root/",
@@ -7041,6 +7069,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["cssnano", "virtual:4f702e47783e02ba79019efa28edf6822346a5e058d9b807fb9a2e383591b322063729e524b60583b0f95cb823582b94203aab7157eee82e70a389e1bb8703d0#npm:5.0.6"],
             ["effector", "npm:21.8.12"],
             ["effector-logger", "virtual:4f702e47783e02ba79019efa28edf6822346a5e058d9b807fb9a2e383591b322063729e524b60583b0f95cb823582b94203aab7157eee82e70a389e1bb8703d0#npm:0.10.0"],
+            ["effector-react", "virtual:4f702e47783e02ba79019efa28edf6822346a5e058d9b807fb9a2e383591b322063729e524b60583b0f95cb823582b94203aab7157eee82e70a389e1bb8703d0#npm:21.3.3"],
             ["effector-root", "virtual:4f702e47783e02ba79019efa28edf6822346a5e058d9b807fb9a2e383591b322063729e524b60583b0f95cb823582b94203aab7157eee82e70a389e1bb8703d0#npm:1.3.0"],
             ["eslint", "npm:7.30.0"],
             ["eslint-config-airbnb-base", "virtual:4f702e47783e02ba79019efa28edf6822346a5e058d9b807fb9a2e383591b322063729e524b60583b0f95cb823582b94203aab7157eee82e70a389e1bb8703d0#npm:14.2.1"],
@@ -7061,6 +7090,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:2.3.2"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:4f702e47783e02ba79019efa28edf6822346a5e058d9b807fb9a2e383591b322063729e524b60583b0f95cb823582b94203aab7157eee82e70a389e1bb8703d0#npm:17.0.2"],
+            ["regenerator-runtime", "npm:0.13.8"],
             ["typescript", "patch:typescript@npm%3A4.3.5#builtin<compat/typescript>::version=4.3.5&hash=ddfc1b"],
             ["webpack", "virtual:4f702e47783e02ba79019efa28edf6822346a5e058d9b807fb9a2e383591b322063729e524b60583b0f95cb823582b94203aab7157eee82e70a389e1bb8703d0#npm:5.44.0"],
             ["webpack-cli", "virtual:4f702e47783e02ba79019efa28edf6822346a5e058d9b807fb9a2e383591b322063729e524b60583b0f95cb823582b94203aab7157eee82e70a389e1bb8703d0#npm:4.7.2"],

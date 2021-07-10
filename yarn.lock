@@ -4800,6 +4800,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"effector-react@npm:^21.3.3":
+  version: 21.3.3
+  resolution: "effector-react@npm:21.3.3"
+  peerDependencies:
+    effector: ^21.8.0
+    react: ">=16.8.0 <18.0.0"
+  checksum: 3a656b0b5275e65384407c9452dd24edf754816495bd14dda6310a65a543ab7050ba44716b8102b13ab944952bdedf081ee41b1451a94d45beec3ad880a716c7
+  languageName: node
+  linkType: hard
+
 "effector-root@npm:^1.3.0":
   version: 1.3.0
   resolution: "effector-root@npm:1.3.0"
@@ -4838,6 +4848,7 @@ __metadata:
     cssnano: ^5.0.6
     effector: ^21.8.12
     effector-logger: ^0.10.0
+    effector-react: ^21.3.3
     effector-root: ^1.3.0
     eslint: ^7.30.0
     eslint-config-airbnb-base: ^14.2.1
@@ -4858,6 +4869,7 @@ __metadata:
     prettier: ^2.3.2
     react: ^17.0.2
     react-dom: ^17.0.2
+    regenerator-runtime: ^0.13.7
     typescript: ^4.3.5
     webpack: ^5.44.0
     webpack-cli: ^4.7.2
@@ -10595,7 +10607,7 @@ fsevents@^2.3.2:
   languageName: node
   linkType: hard
 
-"regenerator-runtime@npm:^0.13.4":
+"regenerator-runtime@npm:^0.13.4, regenerator-runtime@npm:^0.13.7":
   version: 0.13.8
   resolution: "regenerator-runtime@npm:0.13.8"
   checksum: 20178f5753f181d59691e5c3b4c59a2769987f75c7ccf325777673b5478acca61a553b10e895585086c222f72f5ee428090acf50320264de4b79f630f7388653

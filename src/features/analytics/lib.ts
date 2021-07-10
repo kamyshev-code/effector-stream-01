@@ -1,17 +1,17 @@
 let inited = false;
 
-export async function iniAnalytics() {
+export async function initAnalytics() {
   await new Promise((res) => setTimeout(res, 3000));
   inited = true;
+  console.log('INIT analytics');
 }
 
-export function sendEvent({
-  name,
-  payload,
-}: {
+export type AnalyticsEvent = {
   name: string;
   payload: Record<string, string | number>;
-}) {
+};
+
+export function sendEvent({ name, payload }: AnalyticsEvent) {
   if (!inited) {
     throw new Error('Analytics not initialized!');
   }
