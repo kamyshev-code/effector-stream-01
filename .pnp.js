@@ -47,6 +47,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@linaria/shaker", "virtual:4f702e47783e02ba79019efa28edf6822346a5e058d9b807fb9a2e383591b322063729e524b60583b0f95cb823582b94203aab7157eee82e70a389e1bb8703d0#npm:3.0.0-beta.7"],
             ["@linaria/webpack-loader", "npm:3.0.0-beta.7"],
             ["@types/jest", "npm:26.0.24"],
+            ["@types/lodash", "npm:4.14.171"],
             ["@types/react", "npm:17.0.14"],
             ["@types/react-dom", "npm:17.0.9"],
             ["@typescript-eslint/eslint-plugin", "virtual:4f702e47783e02ba79019efa28edf6822346a5e058d9b807fb9a2e383591b322063729e524b60583b0f95cb823582b94203aab7157eee82e70a389e1bb8703d0#npm:4.28.2"],
@@ -72,6 +73,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react-hooks", "virtual:4f702e47783e02ba79019efa28edf6822346a5e058d9b807fb9a2e383591b322063729e524b60583b0f95cb823582b94203aab7157eee82e70a389e1bb8703d0#npm:4.2.0"],
             ["html-webpack-plugin", "virtual:4f702e47783e02ba79019efa28edf6822346a5e058d9b807fb9a2e383591b322063729e524b60583b0f95cb823582b94203aab7157eee82e70a389e1bb8703d0#npm:5.3.2"],
             ["jest", "virtual:4f702e47783e02ba79019efa28edf6822346a5e058d9b807fb9a2e383591b322063729e524b60583b0f95cb823582b94203aab7157eee82e70a389e1bb8703d0#npm:27.0.6"],
+            ["lodash", "npm:4.17.21"],
             ["mini-css-extract-plugin", "virtual:4f702e47783e02ba79019efa28edf6822346a5e058d9b807fb9a2e383591b322063729e524b60583b0f95cb823582b94203aab7157eee82e70a389e1bb8703d0#npm:2.1.0"],
             ["patronum", "virtual:4f702e47783e02ba79019efa28edf6822346a5e058d9b807fb9a2e383591b322063729e524b60583b0f95cb823582b94203aab7157eee82e70a389e1bb8703d0#npm:1.1.0"],
             ["postcss", "npm:8.3.5"],
@@ -3558,6 +3560,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["@types/lodash", [
+        ["npm:4.14.171", {
+          "packageLocation": "./.yarn/cache/@types-lodash-npm-4.14.171-b4c768e142-e48668fb03.zip/node_modules/@types/lodash/",
+          "packageDependencies": [
+            ["@types/lodash", "npm:4.14.171"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["@types/minimatch", [
         ["npm:3.0.5", {
           "packageLocation": "./.yarn/cache/@types-minimatch-npm-3.0.5-802bb0797f-517a8ea1bf.zip/node_modules/@types/minimatch/",
@@ -7015,6 +7026,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@linaria/shaker", "virtual:4f702e47783e02ba79019efa28edf6822346a5e058d9b807fb9a2e383591b322063729e524b60583b0f95cb823582b94203aab7157eee82e70a389e1bb8703d0#npm:3.0.0-beta.7"],
             ["@linaria/webpack-loader", "npm:3.0.0-beta.7"],
             ["@types/jest", "npm:26.0.24"],
+            ["@types/lodash", "npm:4.14.171"],
             ["@types/react", "npm:17.0.14"],
             ["@types/react-dom", "npm:17.0.9"],
             ["@typescript-eslint/eslint-plugin", "virtual:4f702e47783e02ba79019efa28edf6822346a5e058d9b807fb9a2e383591b322063729e524b60583b0f95cb823582b94203aab7157eee82e70a389e1bb8703d0#npm:4.28.2"],
@@ -7040,6 +7052,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react-hooks", "virtual:4f702e47783e02ba79019efa28edf6822346a5e058d9b807fb9a2e383591b322063729e524b60583b0f95cb823582b94203aab7157eee82e70a389e1bb8703d0#npm:4.2.0"],
             ["html-webpack-plugin", "virtual:4f702e47783e02ba79019efa28edf6822346a5e058d9b807fb9a2e383591b322063729e524b60583b0f95cb823582b94203aab7157eee82e70a389e1bb8703d0#npm:5.3.2"],
             ["jest", "virtual:4f702e47783e02ba79019efa28edf6822346a5e058d9b807fb9a2e383591b322063729e524b60583b0f95cb823582b94203aab7157eee82e70a389e1bb8703d0#npm:27.0.6"],
+            ["lodash", "npm:4.17.21"],
             ["mini-css-extract-plugin", "virtual:4f702e47783e02ba79019efa28edf6822346a5e058d9b807fb9a2e383591b322063729e524b60583b0f95cb823582b94203aab7157eee82e70a389e1bb8703d0#npm:2.1.0"],
             ["patronum", "virtual:4f702e47783e02ba79019efa28edf6822346a5e058d9b807fb9a2e383591b322063729e524b60583b0f95cb823582b94203aab7157eee82e70a389e1bb8703d0#npm:1.1.0"],
             ["postcss", "npm:8.3.5"],

@@ -2102,6 +2102,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/lodash@npm:^4.14.171":
+  version: 4.14.171
+  resolution: "@types/lodash@npm:4.14.171"
+  checksum: e48668fb030ad7d8c0c7751061bd332ad8704937d976bd4e24fd9e2128f80c17112be11e5c13d39f6a210336dc3549f7fb00eaebb56b94c2bfb89ad64c57d721
+  languageName: node
+  linkType: hard
+
 "@types/minimatch@npm:*":
   version: 3.0.5
   resolution: "@types/minimatch@npm:3.0.5"
@@ -4816,6 +4823,7 @@ __metadata:
     "@linaria/shaker": ^3.0.0-beta.7
     "@linaria/webpack-loader": ^3.0.0-beta.7
     "@types/jest": ^26.0.24
+    "@types/lodash": ^4.14.171
     "@types/react": ^17.0.14
     "@types/react-dom": ^17.0.9
     "@typescript-eslint/eslint-plugin": ^4.28.2
@@ -4841,6 +4849,7 @@ __metadata:
     eslint-plugin-react-hooks: ^4.2.0
     html-webpack-plugin: ^5.3.2
     jest: ^27.0.6
+    lodash: ^4.17.21
     mini-css-extract-plugin: ^2.1.0
     patronum: ^1.1.0
     postcss: ^8.3.5
