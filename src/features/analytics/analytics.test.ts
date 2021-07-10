@@ -1,7 +1,7 @@
-import { empty } from "./analytics";
+import { empty } from './analytics';
 
-describe("analytics", () => {
-  test("should run tests", () => {
+describe('analytics', () => {
+  test('should run tests', () => {
     empty();
     expect(true).toBe(true);
   });

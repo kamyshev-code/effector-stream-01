@@ -1,0 +1,49 @@
+{
+  "plugins": [
+    "eslint-plugin-import-helpers",
+    "@typescript-eslint",
+    "react-hooks"
+  ],
+  "extends": ["airbnb-base", "prettier", "plugin:react/recommended"],
+  "rules": {
+    "no-undef": 0,
+    "no-restricted-syntax": 0,
+    "class-methods-use-this": 0,
+    "import/no-unresolved": 0,
+    "import/no-extraneous-dependencies": 0,
+    "import/prefer-default-export": 0,
+    "import/extensions": 0,
+    "import-helpers/order-imports": [
+      "warn",
+      {
+        "newlinesBetween": "always",
+        "groups": ["module", ["/^$/", "/^&/"], ["parent", "sibling", "index"]],
+        "alphabetize": {
+          "order": "ignore",
+          "ignoreCase": true
+        }
+      }
+    ],
+    "no-unused-vars": 0,
+    "no-useless-constructor": 0,
+    "no-empty-function": [
+      "error",
+      {
+        "allow": ["constructors"]
+      }
+    ],
+    "react/prop-types": 0,
+    "react/react-in-jsx-scope": 0
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "project": "tsconfig.json"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}

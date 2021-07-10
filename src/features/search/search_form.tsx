@@ -1,6 +1,5 @@
-import { Input, Button } from "antd";
-
-import { styled } from "@linaria/react";
+import { Input, Button } from 'antd';
+import { styled } from '@linaria/react';
 
 const Container = styled.main`
   display: flex;

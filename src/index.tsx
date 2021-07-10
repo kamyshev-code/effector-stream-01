@@ -1,7 +1,7 @@
-import { render } from "react-dom";
-import "antd/dist/antd.css";
+import { render } from 'react-dom';
+import 'antd/dist/antd.css';
 
-import { SearchForm } from "./features/search";
+import { SearchForm } from './features/search';
 
 const Application = () => {
   return (
@@ -11,4 +11,4 @@ const Application = () => {
   );
 };
 
-render(<Application />, document.getElementById("app"));
+render(<Application />, document.getElementById('app'));
